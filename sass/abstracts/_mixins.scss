@@ -21,15 +21,6 @@
 1200-1800px - Where Normal Styles Apply
 1800+px = Big Desktop
 
-*/
-
-@mixin respond-phone {
-  @media (max-width: 600px) {
-    @content;
-  }
-}
-
-/*
 $breakpoint argument choices:
 - phone
 - tab-port
